@@ -21,8 +21,9 @@ my %WriteMakefileArgs = (
                        'BUILD_REQUIRES' => {},
                        'ABSTRACT' => 'Stop, start and monitor your slaves.',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.01',
+                       'VERSION' => '0.02',
                        'PREREQ_PM' => {
+                                        'Data::Dump' => '0',
                                         'DBD::mysql' => '0',
                                         'Moose' => '0'
                                       },
